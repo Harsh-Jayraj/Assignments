@@ -1,104 +1,181 @@
-    \documentclass[a4paper]{article} 
-    \input{head}
-    \begin{document}
-    
-    %-------------------------------
-    %	TITLE SECTION
-    %-------------------------------
-    
-    \fancyhead[C]{}
-    \hrule \medskip % Upper rule
-    \begin{minipage}{0.295\textwidth} 
-    \raggedright
-    \footnotesize
-    Harsh Jayraj\hfill\\   
-    19111026\hfill\\
-    BIOMED 5th SEM
-    \end{minipage}
-    \begin{minipage}{0.4\textwidth} 
-    \centering 
-    \large 
-    ASSIGNMENT 1\\
-    \normalsize 
-    Philosophy of Artificial Intelligence\\ 
-    \end{minipage}
-    \begin{minipage}{0.295\textwidth} 
-    \raggedleft
-    \today\hfill\\
-    \end{minipage}
-    \medskip\hrule 
-    \bigskip
-    
-    %-------------------------------
-    %	CONTENTS
-    %-------------------------------
-    
-    \section{Introduction}
-    The philosophy of artificial intelligence is a branch of the philosophy of technology that explores artificial intelligence and its implications for knowledge and understanding of intelligence, ethics, consciousness, epistemology, and free will.
-    \\
-    \\
-    The philosophy of artificial intelligence attempts to answer such questions as follows:
-    
-    Can a machine act intelligently? Can it solve any problem that a person would solve by thinking?\\
-    Are human intelligence and machine intelligence the same? Is the human brain essentially a computer?\\
-    Can a machine have a mind, mental states, and consciousness in the same sense that a human being can? Can it feel how things are?\\
-    \\
-    Important propositions in the philosophy of AI include some of the following:\\
-    \\
-    --Turing's "polite convention": If a machine behaves as intelligently as a human being, then it is as intelligent as a human being.\\
-    --The Dartmouth proposal: "Every aspect of learning or any other feature of intelligence can be so precisely described that a machine can be made to simulate it."\\
-    --Allen Newell and Herbert A. Simon's physical symbol system hypothesis: "A physical symbol system has the necessary and sufficient means of general intelligent action."\\
-    --John Searle's strong AI hypothesis: "The appropriately programmed computer with the right inputs and outputs would thereby have a mind in exactly the same sense human beings have minds."\\
-    --Hobbes' mechanism: "For 'reason' ... is nothing but 'reckoning,' that is adding and subtracting, of the consequences of general names agreed upon for the 'marking' and 'signifying' of our thoughts..."\\
-    
-    \section{Can a Machine display Intelligence?}
-    Is it possible for a machine to perform an execute all tasks that a human does?\\
-    This Questions arises two main other questions i.e.  whats is Intelligence? and the another that whether a machine lies under the category of being intelligent or not?\\
-    \subsection{What is Intelligence?}
-    1) according to alan turing - "If a machine acts as intelligently as a human being, then it is as intelligent as a human being."\\
-    \\
-    2) according to Intelligent Agent Definition - "If an agent acts so as to maximize the expected value of a performance measure based on past experience and knowledge then it is intelligent." where an "agent" is something which perceives and acts in an environment.
-    \bigskip
-    \subsection{Can display general intelligence or NOT?}
-    1) The Brain can be  stimulated.\\
-    2) Human thinking is a symbolic processing - In 1963, Allen Newell and Herbert A. Simon proposed that "symbol manipulation" was the essence of both human and machine intelligence.\\
-    3) Godelian anti-mechanist arguments  and dreyfus: the primacy of implicit skills pose a huge argument against imtelligence as symbol processing.\\
-    4)Today Artificial intelligence have advance so much in fields of computer vision, natural language processing, robotics, machine learning, deep learning.
-    %------------------------------------------------
-    
-    \section{Can Machine Have Mind, Consciousness and a mental state?}
-    According to Searle:\\\\
-    Strong AI-A physical symbol system can have a mind and mental states.This includes Natural language processing, brain computer interface etc.\\\\
-    Weak AI-A physical symbol system can act intelligently. It includes Deep Learning, Machine Learning etc.\\
-    \\
-    Searle introduced the terms to isolate strong AI from weak AI so he could focus on what he thought was the more interesting and debatable issue. He argued that even if we assume that we had a computer program that acted exactly like a human mind, there would still be a difficult philosophical question that needed to be answered.\\
-    \\Neither of Searle's two positions are of great concern to AI research, since they do not directly answer the question "can a machine display general intelligence?"
-    \subsection{Consciousness, minds, mental states, meaning}
-    The word consciousness according to some philosophers is an invisible, energetic fluid that permeates life and especially the mind.\\\\
-    For philosophers, neuroscientists and cognitive scientists, the words are used in a way that is both more precise and more mundane: they refer to the familiar, everyday experience of having a "thought in your head", like a perception, a dream, an intention or a plan, and to the way we know something, or mean something or understand something.
-    
-    \bigskip
-    \subsection{Arguments that a computer cannot have a mind and mental states}
-    1) Searle's Chinese room
-    2) Leibniz' mill, Davis's telephone exchange, Block's Chinese nation and Blockhead
-    \bigskip
-    
-    \section{Is thinking a kind of computation?}
-    The computational theory of mind or "computationalism" claims that the relationship between mind and brain is similar (if not identical) to the relationship between a running program and a computer.\\
-    \\if the human brain is a kind of computer then computers can be both intelligent and conscious, answering both the practical and philosophical questions of AI.Some versions of computationalism make the claim that:\\
-    \\
-    -Reasoning is nothing but reckoning.-  "Our intelligence derives from a form of calculation, similar to arithmetic."\\
-    -Mental states are just implementations of (the right) computer programs.\\
-    
-    \bigskip
-    
-    \section{Other related Questions on which philosophers argued in this field}
-    \subsection{Can a machine have emotions?}
-    \subsection{Can a machine be self-aware?}
-    \subsection{Can a machine be original or creative?}
-    \subsection{Can a machine be benevolent or hostile?}
-    \subsection{Can a machine imitate all human characteristics?}
-    \subsection{Can a machine have a soul?}
-    %------------------------------------------------
-    
-    \end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Homework Assignment Article
+% LaTeX Template
+% Version 1.3.5r (2018-02-16)
+%
+% This template has been downloaded from:
+% /cl.uni-heidelberg.de/~zimmermann/
+%
+% Original author:
+% Victor Zimmermann (zimmermann@cl.uni-heidelberg.de)
+%
+% License:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Uses article class in A4 format
+
+%----------------------------------------------------------------------------------------
+%	FORMATTING
+%----------------------------------------------------------------------------------------
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\voffset}{-15pt}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\usepackage[a4paper, margin=2.5cm]{geometry} % Sets margin to 2.5cm for A4 Paper
+\usepackage[onehalfspacing]{setspace} % Sets Spacing to 1.5
+
+\usepackage[T1]{fontenc} % Use European encoding
+\usepackage[utf8]{inputenc} % Use UTF-8 encoding
+\usepackage{charter} % Use the Charter font
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+
+\usepackage[english, ngerman]{babel} % Language hyphenation and typographical rules
+
+\usepackage{amsthm, amsmath, amssymb} % Mathematical typesetting
+\usepackage{marvosym, wasysym} % More symbols
+\usepackage{float} % Improved interface for floating objects
+\usepackage[final, colorlinks = true, 
+            linkcolor = black, 
+            citecolor = black,
+            urlcolor = black]{hyperref} % For hyperlinks in the PDF
+\usepackage{graphicx, multicol} % Enhanced support for graphics
+\usepackage{xcolor} % Driver-independent color extensions
+\usepackage{rotating} % Rotation tools
+\usepackage{listings, style/lstlisting} % Environment for non-formatted code, !uses style file!
+\usepackage{pseudocode} % Environment for specifying algorithms in a natural way
+\usepackage{style/avm} % Environment for f-structures, !uses style file!
+\usepackage{booktabs} % Enhances quality of tables
+
+\usepackage{tikz-qtree} % Easy tree drawing tool
+\tikzset{every tree node/.style={align=center,anchor=north},
+         level distance=2cm} % Configuration for q-trees
+\usepackage{style/btree} % Configuration for b-trees and b+-trees, !uses style file!
+
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\arabic{section}.} % Arabic numerals for the sections
+\titleformat{\section}{\large}{\thesection}{1em}{}
+\renewcommand\thesubsection{\alph{subsection})} % Alphabetic numerals for subsections
+\titleformat{\subsection}{\large}{\thesubsection}{1em}{}
+\renewcommand\thesubsubsection{\roman{subsubsection}.} % Roman numbering for subsubsections
+\titleformat{\subsubsection}{\large}{\thesubsubsection}{1em}{}
+
+\usepackage[all]{nowidow} % Removes widows
+
+\usepackage[backend=biber,style=numeric,
+            sorting=nyt, natbib=true]{biblatex} % Complete reimplementation of bibliographic facilities
+\addbibresource{main.bib}
+\usepackage{csquotes} % Context sensitive quotation facilities
+
+\usepackage[yyyymmdd]{datetime} % Uses YEAR-MONTH-DAY format for dates
+\renewcommand{\dateseparator}{-} % Sets dateseparator to '-'
+
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{}\renewcommand{\headrulewidth}{0pt} % Blank out the default header
+\fancyfoot[L]{\textsc{}} % Custom footer text
+\fancyfoot[C]{} % Custom footer text
+\fancyfoot[R]{\thepage} % Custom footer text
+
+\newcommand{\note}[1]{\marginpar{\scriptsize \textcolor{red}{#1}}} % Enables comments in red on margin
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{template_assignment} % Article title
+\fancyhead[C]{}
+\begin{minipage}{0.295\textwidth} % Left side of title section
+\raggedright
+Harsh Jayraj\\ % Your lecture or course
+\footnotesize % Authors text size
+%\hfill\\ % Uncomment if right minipage has more lines
+biomedical 5th sem, 19111026 % Your name, your matriculation number
+\medskip\hrule
+\end{minipage}
+\begin{minipage}{0.4\textwidth} % Center of title section
+\centering 
+\large % Title text size
+Assignment 05\\ % Assignment title and number
+\normalsize % Subtitle text size
+Artificial Intelligence\\ % Assignment subtitle
+\end{minipage}
+\begin{minipage}{0.295\textwidth} % Right side of title section
+\raggedleft
+\today\\ % Date
+\footnotesize % Email text size
+%\hfill\\ % Uncomment if left minipage has more lines
+harsh26082001@gmail.com% Your email
+\medskip\hrule
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+% here be dragons
+\section{\color{brown}Hidden Markov model}
+Hidden Markov Model (HMM) is a statistical Markov model in which the system being modeled is assumed to be a Markov process – call it X – with unobservable ("hidden") states. HMM assumes that there is another process Y whose behavior "depends" on X.
+
+\section{Definition}
+Let $X_n$ and $Y_n$ be discrete-time stochastic processes and $n>=1$ . The pair $(X_n,Y_n)$ is a hidden Markov model if
+
+a) $X_n$ is a Markov process whose behavior is not directly observable ("hidden");\\
+b) P($Y_n$ $\epsilon $ A|$X_1$ = $x_1$ ......$X_n$ = $x_n$) = P($Y_n$ $\epsilon $ A, $X_n=$ $x_n$)\\
+\subsection{Terminology}
+The states of the process $X_{n}$ are called hidden states, and  P($Y_n$ $\epsilon $ A, $X_n=$ $x_n$)  is called emission probability or output probability.
+\section{Examples}
+1) Drawing balls from hidden Urns\\
+\\In its discrete form, a hidden Markov process can be visualized as a generalization of the urn problem with replacement (where each item from the urn is returned to the original urn before the next step).[6] Consider this example: in a room that is not visible to an observer there is a genie. The room contains urns X1, X2, X3, ... each of which contains a known mix of balls, each ball labeled y1, y2, y3, ... . The genie chooses an urn in that room and randomly draws a ball from that urn. It then puts the ball onto a conveyor belt, where the observer can observe the sequence of the balls but not the sequence of urns from which they were drawn. The genie has some procedure to choose urns; the choice of the urn for the n-th ball depends only upon a random number and the choice of the urn for the (n − 1)-th ball. The choice of urn does not directly depend on the urns chosen before this single previous urn; therefore, this is called a Markov process.\\\\
+
+2) Weather guessing game\\
+\\Consider two friends, Alice and Bob, who live far apart from each other and who talk together daily over the telephone about what they did that day. Bob is only interested in three activities: walking in the park, shopping, and cleaning his apartment. The choice of what to do is determined exclusively by the weather on a given day. Alice has no definite information about the weather, but she knows general trends. Based on what Bob tells her he did each day, Alice tries to guess what the weather must have been like.
+
+Alice believes that the weather operates as a discrete Markov chain. There are two states, "Rainy" and "Sunny", but she cannot observe them directly, that is, they are hidden from her. On each day, there is a certain chance that Bob will perform one of the following activities, depending on the weather: "walk", "shop", or "clean". Since Bob tells Alice about his activities, those are the observations. The entire system is that of a hidden Markov model (HMM).
+
+\section{Structural architecture}
+The hidden state space is assumed to consist of one of N possible values, modelled as a categorical distribution. (See the section below on extensions for other possibilities.) This means that for each of the N possible states that a hidden variable at time t can be in, there is a transition probability from this state to each of the N possible states of the hidden variable at time $T+1$, for a total of $N^{2}$ transition probabilities. Note that the set of transition probabilities for transitions from any given state must sum to 1. Thus, the N\times N matrix of transition probabilities is a Markov matrix. Because any one transition probability can be determined once the others are known, there are a total of  N \times (N-1) transition parameters.
+
+In addition, for each of the N possible states, there is a set of emission probabilities governing the distribution of the observed variable at a particular time given the state of the hidden variable at that time. The size of this set depends on the nature of the observed variable. For example, if the observed variable is discrete with M possible values, governed by a categorical distribution, there will be (M-1) separate parameters, for a total of N \times (M-1) emission parameters over all hidden states. On the other hand, if the observed variable is an M-dimensional vector distributed according to an arbitrary multivariate Gaussian distribution, there will be M parameters controlling the means and {\frac {M(M+1)}{2}} parameters controlling the covariance matrix, for a total of 
+
+
+
+\math{N\left(M+{\frac {M(M+1)}{2}}\right)={\frac {NM(M+3)}{2}}=O(NM{2})}  emission parameters.
+
+\section{Applications}
+Computational finance\\
+Single-molecule kinetic analysis\\
+Cryptanalysis\\
+Speech recognition, including Siri\\
+Speech synthesis\\
+Part-of-speech tagging\\
+Document separation in scanning solutions\\
+Machine translation\\
+Partial discharge\\
+Gene prediction\\
+Handwriting recognition\\
+Alignment of bio-sequences\\
+Time series analysis\\
+Activity recognition\\
+Protein folding\\
+Sequence classification\\
+Metamorphic virus detection\\
+DNA motif discovery\\
+DNA hybridization kinetics\\
+Chromatin state discovery\\
+Transportation forecasting\\
+Solar irradiance variability \\
+
+\end{document}
